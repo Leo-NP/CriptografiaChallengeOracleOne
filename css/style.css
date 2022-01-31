@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: "Open Sans";
+}
+
+h1{
+
+font-size: 25px;
+}
+
+header {
+  margin-top: 50px;
+  margin-right: 50%;
+  text-align: center;
+  color: Red;
+  font-size: 14px;
+}
+
+body{
+  background-image: url("../img/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+footer {
+    color: White;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+button{
+  font-size: 15px;
+  color: black;
+  background-color: #f44336;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 6px 6px;
+}
+
+button:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.form-1{
+width: 400px;
+margin: 0 auto;
+position: absolute;
+top: 20%;
+left: 10%;
+
+
+box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+padding: 30px 4%;
+}
+
+.form-1 div.cripto1{
+  position: relative;
+}
+
+.form-1 div.cripto1 label{
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.form-1 div.cripto1 .campo1{
+  width: 100%;
+  padding: 10px;
+  bottom: 10%;
+
+}
+
+.form-1 div.cripto1 .button-1{
+  margin-top: 10px;
+}
+
+.form-2{
+width: 400px;
+position: absolute;
+top: 55%;
+left: 10%;
+
+box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+padding: 30px 4%;
+}
+
+.form-2 div.copiar{
+  position: relative;
+}
+
+.form-2 div.copiar label{
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.form-2 div.copiar .copia{
+  width: 100%;
+  padding: 10px;
+  bottom: 10%;
+
+}
+
+.form-2 div.copiar .button-2{
+  margin-top: 10px;
+}
